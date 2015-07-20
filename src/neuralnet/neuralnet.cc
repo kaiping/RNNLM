@@ -14,7 +14,6 @@ namespace singa {
 void NeuralNet::RegisterLayers() {
   Factory<Layer>* factory = Singleton<Factory<Layer>>::Instance();
   // FooLayer's type is kFoo, register using Foo
-  
   RegisterLayer(factory, BridgeDst);
   RegisterLayer(factory, BridgeSrc);
   RegisterLayer(factory, Convolution);

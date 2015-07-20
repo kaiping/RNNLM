@@ -1,5 +1,5 @@
 ##Apache SINGA
-for testing, for testing2, for testing3
+for testing
 Distributed deep learning system
 
 [Project Page](http://singa.incubator.apache.org)
